@@ -11,3 +11,7 @@
     border-style: solid;
     border-width: 0.2ch;
 }
+
+.color {
+    background-color: black;
+}
