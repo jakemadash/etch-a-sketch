@@ -1,1 +1,7 @@
-const container = getElementsByClassName("container");
+const container = document.getElementById("container");
+let gridValue = 16;
+
+for (let i = 0; i < gridValue ** 2; i++) {
+    let div = document.createElement('div');
+    container.append(div);
+}
